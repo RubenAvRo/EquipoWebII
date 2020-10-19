@@ -1,0 +1,137 @@
+input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #ffffff;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 1px solid black;
+}
+
+input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #1eff00;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 1px solid white;
+}
+div{
+	border: 6px solid cyan;
+	width: 60%;
+	height: 200px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 10%;
+	margin-top: 10%;
+	text-align: center;
+	background: #F2F2F2; 
+}
+p{
+	font-family: comicsans;
+	font-size: 20px;
+	text-align: center;
+}
+section{
+	
+	font-family: comicsans;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background: #F2F2F2;
+	border: 6px solid cyan;
+	padding: 16px 15px;
+	
+}
+
+h2{
+	font-family: verdana;
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000000;
+	
+}
+
+h1{
+	font-family: verdana;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	border: black;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000000;
+}
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+input[type=email] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+.btn{
+	margin-left: 90%;
+	margin-right: 2%;
+	font-size: 15px ;
+	border-color: black;
+	border-radius: 10px;
+	background-color: white;
+	color: black;
+	padding: 16px 15px;
+	text-align: center;
+}
+
+.btn:hover{
+	margin-left: 90%;
+	margin-right: 2%;
+	font-size: 15px ;
+	border-color: black;
+	border-radius: 8px;
+	background-color: green;
+	color: white;
+	padding: 16px 15px;
+	text-align: center;
+}
+
+.cont{
+	margin-left: 90%;
+	margin-right: 2%;
+	font-size: 15px ;
+	border-color: black;
+	border-radius: 10px;
+	background-color: white;
+	color: black;
+	padding: 16px 15px;
+	text-align: center;
+}
+
+.cont:hover{
+	margin-left: 90%;
+	margin-right: 2%;
+	font-size: 15px ;
+	border-color: black;
+	border-radius: 10px;
+	background-color: green;
+	color: white;
+	padding: 16px 15px;
+	text-align: center;
+}
+
